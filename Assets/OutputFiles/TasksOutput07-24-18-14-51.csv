@@ -1,0 +1,16 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+12:00:00 AM,Select Drug,fentaNYL,-,-,-,-,-,2:52:06 PM,
+2:52:06 PM,Move Syringe,no,0.00,0,0,0,0,2:52:08 PM,
+2:52:08 PM,Fill Syringe,fentaNYL,31.85,1,0,0,0,2:52:10 PM,
+2:52:11 PM,New Task,midazolam,, ---,---,---,---,2:54:19 PM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+2:52:10 PM,Apply Lable,fentaNYL,31.85,1,1,0,0,2:52:12 PM,
+2:52:12 PM,AdministerSyringe,fentaNYL,31.85,1,1,1,0,2:52:36 PM,
+2:52:36 PM,Trash Syringe,fentaNYL,31.85,1,1,1,1,2:52:38 PM,
+2:52:38 PM,Select Drug,ondansetron,-,-,-,-,-,2:52:57 PM,
+2:52:57 PM,Move Syringe,no,0.00,0,0,0,0,2:52:59 PM,
+2:52:59 PM,Fill Syringe,ondansetron,43.87,1,0,0,0,2:52:59 PM,
+2:52:59 PM,Apply Lable,ondansetron,43.87,1,1,0,0,2:53:01 PM,
+2:53:01 PM,AdministerSyringe,ondansetron,43.87,1,1,1,0,2:53:04 PM,
+2:53:04 PM,Trash Syringe,ondansetron,43.87,1,1,1,1,2:53:06 PM,
+2:53:18 PM,New Task,propofol,, ---,---,---,---,2:55:24 PM,Prepare the appropriate dose of propofol 10 mg/ml (mg) for a  30 kg patient. Dose for propofol: 2 mg/kg
+

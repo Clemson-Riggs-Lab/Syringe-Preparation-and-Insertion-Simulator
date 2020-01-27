@@ -1,0 +1,5 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+3:47:13 PM,New Task,midazolam,, ---,---,---,---,3:49:23 PM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+3:47:13 PM,Select Drug,midazolam,-,-,-,-,-,3:47:14 PM,
+3:48:18 PM,New Task,propofol,, ---,---,---,---,3:50:28 PM,Prepare the appropriate dose of propofol 10 mg/ml (mg) for a  30 kg patient. Dose for propofol: 2 mg/kg
+

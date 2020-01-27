@@ -1,0 +1,35 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+2:16:10 PM,New Task,midazolam,, ---,---,---,---,2:17:10 PM
+2:16:10 PM,Select Drug,propofol,-,-,-,-,-,2:16:17 PM
+2:16:17 PM,Move Syringe,no,0.00,0,0,0,0,2:16:19 PM
+2:16:19 PM,Fill Syringe,propofol,41.34,1,0,0,0,2:16:21 PM
+2:16:21 PM,Apply Lable,propofol,41.34,1,1,0,0,2:16:26 PM
+2:16:21 PM,AdministerSyringe,propofol,41.34,1,1,1,0,2:16:31 PM
+12:00:00 AM,Trash Syringe,propofol,41.34,1,1,1,1,2:16:39 PM
+2:17:14 PM,New Task,propofol,, ---,---,---,---,2:18:59 PM
+2:17:14 PM,Select Drug,midazolam,-,-,-,-,-,2:17:27 PM
+2:17:27 PM,Move Syringe,no,0.00,0,0,0,0,2:17:31 PM
+2:17:41 PM,Trash Syringe,no,0.00,0,0,0,1,2:17:41 PM
+2:17:27 PM,Move Syringe,no,0.00,0,0,0,0,2:17:44 PM
+2:17:44 PM,Fill Syringe,midazolam,60.00,1,0,0,0,2:17:49 PM
+2:18:00 PM,New Task,fentaNYL,, ---,---,---,---,2:20:30 PM
+2:17:49 PM,Trash Syringe,midazolam,60.00,1,0,0,1,2:18:00 PM
+2:18:00 PM,Select Drug,succinylcholine syringe,-,-,-,-,-,2:18:11 PM
+2:18:11 PM,Move Syringe,no,0.00,0,0,0,0,2:18:13 PM
+2:18:13 PM,Fill Syringe,succinylcholine syringe,40.32,1,0,0,0,2:18:15 PM
+2:16:26 PM,AdministerSyringe,succinylcholine syringe,40.32,1,0,1,0,2:18:19 PM
+12:00:00 AM,Trash Syringe,succinylcholine syringe,40.32,1,0,1,1,2:18:27 PM
+2:18:27 PM,Select Drug,midazolam,-,-,-,-,-,2:18:31 PM
+2:18:31 PM,Move Syringe,no,0.00,0,0,0,0,2:18:34 PM
+2:18:34 PM,Fill Syringe,midazolam,40.32,1,0,0,0,2:18:35 PM
+2:18:35 PM,Apply Lable,midazolam,40.32,1,1,0,0,2:18:36 PM
+2:18:36 PM,Trash Syringe,midazolam,40.32,1,1,0,1,2:18:43 PM
+2:18:47 PM,Trash Syringe,no,0.00,0,0,0,1,2:18:47 PM
+2:18:51 PM,New Task,ROCuronium,, ---,---,---,---,2:22:06 PM
+2:18:51 PM,Select Drug,ondansetron,-,-,-,-,-,2:18:53 PM
+2:18:53 PM,Move Syringe,no,0.00,0,0,0,0,2:18:55 PM
+2:18:55 PM,Fill Syringe,ondansetron,40.32,1,0,0,0,2:18:56 PM
+2:18:56 PM,Apply Lable,ondansetron,40.32,1,1,0,0,2:19:01 PM
+2:18:56 PM,AdministerSyringe,ondansetron,40.32,1,1,1,0,2:19:06 PM
+12:00:00 AM,Trash Syringe,ondansetron,40.32,1,1,1,1,2:19:10 PM
+

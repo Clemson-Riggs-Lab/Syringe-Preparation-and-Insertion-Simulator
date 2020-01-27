@@ -1,0 +1,14 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+1:52:18 PM,New Task,midazolam,, ---,---,---,---,1:52:18 PM
+1:52:18 PM,Select Drug,ondansetron,-,-,-,-,-,1:52:27 PM
+1:52:27 PM,Move Syringe,no,0,0,0,0,0,1:52:29 PM
+1:52:29 PM,Fill Syringe,ondansetron,41.41442,1,0,0,0,1:52:32 PM
+12:00:00 AM,AdministerSyringe,ondansetron,41.41442,1,0,1,0,1:52:36 PM
+12:00:00 AM,Trash Syringe,ondansetron,41.41442,1,0,1,1,1:52:40 PM
+1:52:40 PM,Select Drug,propofol,-,-,-,-,-,1:52:56 PM
+1:52:56 PM,Move Syringe,no,0,0,0,0,0,1:53:00 PM
+1:53:23 PM,New Task,propofol,, ---,---,---,---,1:53:23 PM
+1:53:00 PM,Fill Syringe,propofol,51.35388,1,0,0,0,1:53:38 PM
+1:53:38 PM,Apply Lable,propofol,51.35388,1,1,0,0,1:53:39 PM
+1:53:39 PM,Trash Syringe,propofol,51.35388,1,1,0,1,1:53:46 PM
+

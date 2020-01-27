@@ -1,0 +1,22 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+1:13:24 PM,New Task,midazolam,, ---,---,---,---,1:15:34 PM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+1:13:24 PM,Select Drug,midazolam,-,-,-,-,-,1:13:33 PM,
+1:13:33 PM,Move Syringe,no,0.00,0,0,0,0,1:13:36 PM,
+1:14:29 PM,New Task,propofol,, ---,---,---,---,1:16:39 PM,Prepare the appropriate dose of propofol 10 mg/ml (mg) for a  30 kg patient. Dose for propofol: 2 mg/kg
+1:15:34 PM,New Task,fentaNYL,, ---,---,---,---,1:17:44 PM,Prepare the appropriate dose of fentaNYL 50 mcg/ml (mcg) for a  30 kg patient. Dose for fentaNYL: 1 mcg/kg
+1:13:36 PM,Fill Syringe,midazolam,13.12,1,0,0,0,1:16:03 PM,
+1:16:03 PM,Apply Lable,midazolam,13.12,1,1,0,0,1:16:08 PM,
+1:16:08 PM,Trash Syringe,midazolam,13.12,1,1,0,1,1:16:23 PM,
+1:16:23 PM,Select Drug,fentaNYL,-,-,-,-,-,1:16:29 PM,
+1:16:29 PM,Move Syringe,no,0.00,0,0,0,0,1:16:32 PM,
+1:16:39 PM,New Task,ROCuronium,, ---,---,---,---,1:18:49 PM,Prepare the appropriate dose of ROCuronium   (mg) for a  40 kg patient. Dose for ROCuronium: 0.6 mg/kg
+1:16:32 PM,Fill Syringe,fentaNYL,24.36,1,0,0,0,1:16:40 PM,
+1:16:40 PM,Apply Lable,fentaNYL,24.36,1,1,0,0,1:16:42 PM,
+1:16:42 PM,Trash Syringe,fentaNYL,24.36,1,1,0,1,1:16:49 PM,
+1:16:49 PM,Select Drug,ROCuronium,-,-,-,-,-,1:16:58 PM,
+1:16:58 PM,Move Syringe,no,0.00,0,0,0,0,1:17:01 PM,
+1:17:01 PM,Fill Syringe,ROCuronium,24.36,1,0,0,0,1:17:02 PM,
+1:17:02 PM,Apply Lable,ROCuronium,24.36,1,1,0,0,1:17:04 PM,
+1:17:04 PM,AdministerSyringe,ROCuronium,24.36,1,1,1,0,1:17:23 PM,
+1:17:23 PM,Trash Syringe,ROCuronium,24.36,1,1,1,1,1:17:29 PM,
+

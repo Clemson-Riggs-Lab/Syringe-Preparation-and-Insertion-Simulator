@@ -1,0 +1,22 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+2:03:45 PM,New Task,midazolam,, ---,---,---,---,2:04:45 PM
+2:03:45 PM,Select Drug,ondansetron,-,-,-,-,-,2:03:51 PM
+2:03:51 PM,Move Syringe,no,0.00,0,0,0,0,2:03:53 PM
+2:03:53 PM,Fill Syringe,ondansetron,36.44,1,0,0,0,2:03:58 PM
+2:03:58 PM,Apply Lable,ondansetron,36.44,1,1,0,0,2:04:01 PM
+2:04:01 PM,Trash Syringe,ondansetron,36.44,1,1,0,1,2:04:06 PM
+2:04:06 PM,Select Drug,fentaNYL,-,-,-,-,-,2:04:14 PM
+2:04:06 PM,Remove Drug,fentaNYL,-,-,-,-,-,2:04:16 PM
+2:04:25 PM,Trash Syringe,no,0.00,0,0,0,1,2:04:25 PM
+2:04:25 PM,Select Drug,PHENYLephrine syring,-,-,-,-,-,2:04:26 PM
+2:04:26 PM,Move Syringe,no,0.00,0,0,0,0,2:04:29 PM
+2:04:25 PM,Remove Drug,PHENYLephrine syring,-,-,-,-,-,2:04:36 PM
+2:04:41 PM,Trash Syringe,no,0.00,0,0,0,1,2:04:41 PM
+2:04:41 PM,Select Drug,PHENYLephrine syring,-,-,-,-,-,2:04:43 PM
+2:04:43 PM,Move Syringe,no,0.00,0,0,0,0,2:04:46 PM
+2:04:49 PM,New Task,propofol,, ---,---,---,---,2:06:34 PM
+2:04:46 PM,Fill Syringe,PHENYLephrine syring,40.86,1,0,0,0,2:04:50 PM
+2:04:50 PM,Apply Lable,PHENYLephrine syring,40.86,1,1,0,0,2:04:52 PM
+2:04:50 PM,AdministerSyringe,PHENYLephrine syring,40.86,1,1,1,0,2:05:00 PM
+12:00:00 AM,Trash Syringe,PHENYLephrine syring,40.86,1,1,1,1,2:05:07 PM
+

@@ -1,0 +1,14 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+1:46:01 PM,New Task,midazolam,, ---,---,---,---,1:46:01 PM
+1:46:01 PM,Select Drug,PHENYLephrine syring,-,-,-,-,-,1:46:07 PM
+1:46:07 PM,Move Syringe,no,0,0,0,0,0,1:46:09 PM
+1:46:09 PM,Fill Syringe,PHENYLephrine syring,56.32363,1,0,0,0,1:46:13 PM
+1:46:13 PM,Apply Lable,PHENYLephrine syring,56.32363,1,1,0,0,1:46:16 PM
+1:46:13 PM,AdministerSyringe,PHENYLephrine syring,56.32363,1,1,1,0,1:46:19 PM
+1:46:16 PM,Trash Syringe,PHENYLephrine syring,56.32363,1,1,1,1,1:46:23 PM
+1:46:23 PM,Select Drug,fentaNYL,-,-,-,-,-,1:46:31 PM
+1:46:31 PM,Move Syringe,no,0,0,0,0,0,1:46:35 PM
+1:46:35 PM,Fill Syringe,fentaNYL,29.2662,1,0,0,0,1:46:37 PM
+1:46:16 PM,AdministerSyringe,fentaNYL,29.2662,1,0,1,0,1:46:41 PM
+1:46:16 PM,Trash Syringe,fentaNYL,29.2662,1,0,1,1,1:46:44 PM
+

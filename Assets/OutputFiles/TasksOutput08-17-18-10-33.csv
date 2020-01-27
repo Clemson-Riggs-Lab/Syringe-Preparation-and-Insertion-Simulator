@@ -1,0 +1,8 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+12:00:00 AM,Select Drug,midazolam,-,-,-,-,-,10:33:29 AM,
+10:33:29 AM,Move Syringe,no,0.00,0,0,0,0,10:33:32 AM,
+10:33:35 AM,New Task,midazolam,, ---,---,---,---,10:34:35 AM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+10:33:32 AM,Fill Syringe,midazolam,17.18,1,0,0,0,10:33:35 AM,
+10:33:35 AM,Apply Lable,midazolam,17.18,1,1,0,0,10:33:37 AM,
+10:33:37 AM,AdministerSyringe,midazolam,17.18,1,1,1,0,10:33:41 AM,
+

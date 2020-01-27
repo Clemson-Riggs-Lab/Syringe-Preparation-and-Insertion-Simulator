@@ -1,0 +1,36 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+9:22:09 AM,New Task,midazolam,, ---,---,---,---,9:23:09 AM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+9:22:09 AM,Select Drug,midazolam,-,-,-,-,-,9:22:27 AM,
+9:22:27 AM,Move Syringe,no,0.00,0,0,0,0,9:22:37 AM,
+9:22:39 AM,New Task,propofol,, ---,---,---,---,9:23:39 AM,Prepare the appropriate dose of propofol 10 mg/ml (mg) for a  30 kg patient. Dose for propofol: 2 mg/kg
+9:22:37 AM,Fill Syringe,midazolam,29.45,1,0,0,0,9:22:42 AM,
+9:22:42 AM,Apply Lable,midazolam,29.45,1,1,0,0,9:22:44 AM,
+9:22:44 AM,AdministerSyringe,midazolam,29.45,1,1,1,0,9:22:48 AM,
+9:22:48 AM,Trash Syringe,midazolam,29.45,1,1,1,1,9:22:51 AM,
+9:22:51 AM,Select Drug,propofol,-,-,-,-,-,9:22:55 AM,
+9:22:55 AM,Move Syringe,no,0.00,0,0,0,0,9:22:57 AM,
+9:22:57 AM,Fill Syringe,propofol,15.95,1,0,0,0,9:23:01 AM,
+9:23:01 AM,Apply Lable,propofol,15.95,1,1,0,0,9:23:02 AM,
+9:23:02 AM,AdministerSyringe,propofol,15.95,1,1,1,0,9:23:06 AM,
+9:23:06 AM,Trash Syringe,propofol,15.95,1,1,1,1,9:23:10 AM,
+9:23:11 AM,New Task,fentaNYL,, ---,---,---,---,9:24:09 AM,Prepare the appropriate dose of fentaNYL 50 mcg/ml (mcg) for a  30 kg patient. Dose for fentaNYL: 1 mcg/kg
+9:23:11 AM,Select Drug,fentaNYL,-,-,-,-,-,9:23:16 AM,
+9:23:16 AM,Move Syringe,no,0.00,0,0,0,0,9:23:19 AM,
+9:23:19 AM,Fill Syringe,fentaNYL,40.49,1,0,0,0,9:23:22 AM,
+9:23:22 AM,Apply Lable,fentaNYL,40.49,1,1,0,0,9:23:24 AM,
+9:23:24 AM,AdministerSyringe,fentaNYL,40.49,1,1,1,0,9:23:27 AM,
+9:23:27 AM,Trash Syringe,fentaNYL,40.49,1,1,1,1,9:23:31 AM,
+9:23:42 AM,New Task,ROCuronium,, ---,---,---,---,9:24:34 AM,Prepare the appropriate dose of ROCuronium   (mg) for a  40 kg patient. Dose for ROCuronium: 0.6 mg/kg
+9:23:42 AM,Select Drug,ROCuronium,-,-,-,-,-,9:23:46 AM,
+9:23:46 AM,Move Syringe,no,0.00,0,0,0,0,9:23:54 AM,
+9:23:54 AM,Fill Syringe,ROCuronium,14.11,1,0,0,0,9:23:55 AM,
+9:23:55 AM,Apply Lable,ROCuronium,14.11,1,1,0,0,9:23:57 AM,
+9:23:57 AM,AdministerSyringe,ROCuronium,14.11,1,1,1,0,9:23:59 AM,
+9:23:59 AM,Trash Syringe,ROCuronium,14.11,1,1,1,1,9:24:03 AM,
+9:24:03 AM,Select Drug,lidocaine,-,-,-,-,-,9:24:24 AM,
+9:24:24 AM,Move Syringe,no,0.00,0,0,0,0,9:24:27 AM,
+9:24:27 AM,Fill Syringe,lidocaine,33.13,1,0,0,0,9:24:29 AM,
+9:24:29 AM,Apply Lable,lidocaine,33.13,1,1,0,0,9:24:30 AM,
+9:24:30 AM,AdministerSyringe,lidocaine,33.13,1,1,1,0,9:24:33 AM,
+9:24:33 AM,Trash Syringe,lidocaine,33.13,1,1,1,1,9:24:37 AM,
+

@@ -1,0 +1,8 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+12:00:00 AM,Select Drug,propofol,-,-,-,-,-,12:10:02 PM
+12:10:02 PM,Move Syringe,no,0,0,0,0,0,12:10:05 PM
+12:10:05 PM,Fill Syringe,propofol,39.75784,1,0,0,0,12:10:13 PM
+12:10:13 PM,Apply Lable,propofol,39.75784,1,1,0,0,12:10:16 PM
+12:10:13 PM,AdministerSyringe,propofol,39.75784,1,1,1,0,12:10:18 PM
+12:10:16 PM,Trash Syringe,propofol,39.75784,1,1,1,1,12:10:22 PM
+

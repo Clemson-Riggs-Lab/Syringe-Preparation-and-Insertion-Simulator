@@ -1,0 +1,5 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time
+3:22:07 PM,New Task,midazolam,, ---,---,---,---,3:23:07 PM
+3:22:07 PM,Select Drug,PHENYLephrine syring,-,-,-,-,-,3:22:11 PM
+3:22:11 PM,Move Syringe,no,0.00,0,0,0,0,3:22:13 PM
+

@@ -1,0 +1,9 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+6:27:46 AM,New Task,midazolam,, ---,---,---,---,6:29:55 AM,Prepare the appropriate dose of midazolam 1 mg/ml (mg) for a  30 kg patient. Dose for midazolam: 0.05 mg/kg
+6:27:46 AM,Select Drug,PHENYLephrine syring,-,-,-,-,-,6:27:50 AM,
+6:27:50 AM,Move Syringe,no,0.00,0,0,0,0,6:27:52 AM,
+6:27:52 AM,Fill Syringe,PHENYLephrine syring,38.12,1,0,0,0,6:27:56 AM,
+6:27:56 AM,Apply Lable,PHENYLephrine syring,38.12,1,1,0,0,6:27:59 AM,
+6:27:59 AM,AdministerSyringe,PHENYLephrine syring,38.12,1,1,1,0,6:28:04 AM,
+6:28:04 AM,Trash Syringe,PHENYLephrine syring,38.12,1,1,1,1,6:28:08 AM,
+
