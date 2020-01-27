@@ -71,7 +71,7 @@ public class DisplayTextScript : MonoBehaviour {
             // creating the info string with some rich text features ( bold, new line, ...)
             info =  "<b>Status: </b> " + status+ "\n"
             + "<b>Drug: </b>" + drug + "\n"
-            + "<b>Volume: </b>" + selected.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F2") + " ml" + "\n"
+            + "<b>Volume: </b>" + selected.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F0") + " ml" + "\n"
             + "<b>Syringe Lable: </b>" + tag + "\n";
             
         }
@@ -136,12 +136,11 @@ public class DisplayTextScript : MonoBehaviour {
 
     public void SetAmmount(float ammount)
     {
-        AmmountText.text = " Volume: " + ammount.ToString("F1") + " ml";
+        AmmountText.text = " Volume: " + ammount.ToString("F0") + " ml";
     }
 
     public void SetTaskRequirements(Task CurrentTask)
     {
-        TaskRequirementsText.text = "Prepare the appropriate dose of " + CurrentTask.DrugName +" " + CurrentTask.Concentration + " " + CurrentTask.ConcentrationUnit + " ("+CurrentTask.Unit+") " + "for a  "+ CurrentTask.PatientWeight+" kg patient. \n"
-            +"<b>Dose for "+ CurrentTask.DrugName +": "+CurrentTask.DosingNumber +" " + CurrentTask.DosingUnit+ "</b>";
+        TaskRequirementsText.text = CurrentTask.FullText;
     }
 }

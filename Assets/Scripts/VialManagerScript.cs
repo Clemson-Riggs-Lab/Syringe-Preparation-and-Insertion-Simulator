@@ -47,7 +47,6 @@ public class VialManagerScript : MonoBehaviour {
         {
             SceneManager.GetComponent<CsvOutputWrite>().AddEvent("VialRemoved", this.gameObject);
             SceneManager.GetComponent<SceneManagementScript>().RemoveObject(this.gameObject);
-            // TODO: remove syringe
         }
 
 

@@ -11,7 +11,7 @@ public class TasksManagementScript : MonoBehaviour {
     int numberofTasks;
     bool keepUpdating;
     public double SimulationStartTime;
-    public double TaskEndTime;
+//    public double TaskEndTime;
     // Use this for initialization
     void Start () {
         TasksList = gameObject.GetComponent<TaskCSVManager>().GetTasksList();
@@ -20,7 +20,7 @@ public class TasksManagementScript : MonoBehaviour {
         index = 0;
         keepUpdating = true;
         SimulationStartTime = Time.time;
-        TaskEndTime = SimulationStartTime + TasksList[0].TimeToPresent;
+      //  TaskEndTime = SimulationStartTime + TasksList[0].TimeToPresent;
 
     }
 
@@ -32,8 +32,8 @@ public class TasksManagementScript : MonoBehaviour {
             keepUpdating = false;
             return;
         }
-            CurrentTask = TasksList[index];
-        TaskEndTime = SimulationStartTime + TasksList[index+1].TimeToPresent;
+        CurrentTask = TasksList[index];
+     //   TaskEndTime = SimulationStartTime + TasksList[index+1].TimeToPresent;
         index++;
         gameObject.GetComponent<DisplayTextScript>().SetTaskRequirements(CurrentTask);
         this.gameObject.GetComponent<CsvOutputWrite>().AddEvent("NewTask");
@@ -41,10 +41,10 @@ public class TasksManagementScript : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update () {
-        if (keepUpdating)
-        if (Time.time > TaskEndTime)
-            NextTask();
+ //   void Update () {
+ //       if (keepUpdating)
+ //       if (Time.time > TaskEndTime)
+ //           NextTask();
 		
-	}
+	//}
 }

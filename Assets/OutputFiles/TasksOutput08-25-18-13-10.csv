@@ -1,0 +1,22 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+13:10:56:9309,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+13:10:56:9309,Select Drug,Phenylephrine syringe,-,-,-,-,-,13:11:02:6246,
+13:11:02:6246,Move Syringe,no,0.00,0,0,0,0,13:11:03:7148,
+13:11:03:7148,Fill Syringe,Phenylephrine syringe,13,1,0,0,0,13:11:05:5868,
+13:11:05:5868,Apply Lable,Phenylephrine syringe,13,1,1,0,0,13:11:06:8290,
+13:11:06:8290,AdministerSyringe,Phenylephrine syringe,13,1,1,1,0,13:11:08:3519,
+13:11:08:3519,Trash Syringe,Phenylephrine syringe,13,1,1,1,1,13:11:11:1761,
+13:11:13:1140,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+13:11:13:1140,Select Drug,Clycopyrrolate injection,-,-,-,-,-,13:11:15:6788,
+13:11:15:6788,Move Syringe,no,0.00,0,0,0,0,13:11:16:8626,
+13:11:16:8626,Fill Syringe,Clycopyrrolate injection,10,1,0,0,0,13:11:20:6239,
+13:11:20:6239,Apply Lable,Clycopyrrolate injection,10,1,1,0,0,13:11:21:6675,
+13:11:21:6675,AdministerSyringe,Clycopyrrolate injection,10,1,1,1,0,13:11:25:3113,
+13:11:25:3113,Trash Syringe,Clycopyrrolate injection,10,1,1,1,1,13:11:28:0232,
+13:11:29:5139,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+13:11:30:3258,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+13:11:30:5412,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 7 mL of Lidocaine
+13:11:30:7401,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 5 mL of Midazolam
+13:11:30:9560,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 22 mL of Propofol
+13:11:31:1547,New Task,Rocuronium,, ---,---,---,---,---,Prepare and administer 12 mL of Rocuronium
+

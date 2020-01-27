@@ -1,0 +1,28 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+15:32:45:5052,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+15:32:45:5057,Select Drug,Vecuronium,-,-,-,-,-,15:32:48:6308,
+15:32:48:6308,Move Syringe,no,0.00,0,0,0,0,15:32:50:4395,
+15:32:50:4395,Fill Syringe,Vecuronium,6,1,0,0,0,15:32:53:6031,
+15:32:53:6031,Apply Lable,Vecuronium,6,1,1,0,0,15:32:54:5799,
+15:32:54:5799,AdministerSyringe,Vecuronium,6,1,1,1,0,15:32:55:8721,
+15:32:55:8721,Trash Syringe,Vecuronium,6,1,1,1,1,15:32:58:2942,
+15:32:59:1547,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+15:32:59:1547,Select Drug,Midazolam,-,-,-,-,-,15:33:04:2708,
+15:33:04:2708,Move Syringe,no,0.00,0,0,0,0,15:33:07:1597,
+15:33:07:1597,Fill Syringe,Midazolam,8,1,0,0,0,15:33:09:7452,
+15:33:09:7452,Apply Lable,Midazolam,8,1,1,0,0,15:33:11:8986,
+15:33:11:8986,AdministerSyringe,Midazolam,8,1,1,1,0,15:33:13:6876,
+15:33:13:6876,Trash Syringe,Midazolam,8,1,1,1,1,15:33:16:2423,
+15:33:17:6666,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+15:33:18:3628,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+15:33:18:5456,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 7 mL of Lidocaine
+15:33:18:8765,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 5 mL of Midazolam
+15:33:18:8765,Select Drug,Midazolam,-,-,-,-,-,15:33:22:0701,
+15:33:22:0701,Move Syringe,no,0.00,0,0,0,0,15:33:23:1714,
+15:33:23:1714,Fill Syringe,Midazolam,5,1,0,0,0,15:33:25:5740,
+15:33:25:5740,Apply Lable,Midazolam,5,1,1,0,0,15:33:26:4184,
+15:33:26:4184,AdministerSyringe,Midazolam,5,1,1,1,0,15:33:27:6610,
+15:33:27:6610,Trash Syringe,Midazolam,5,1,1,1,1,15:33:29:9599,
+15:33:31:0366,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 22 mL of Propofol
+15:33:31:4175,New Task,Rocuronium,, ---,---,---,---,---,Prepare and administer 12 mL of Rocuronium
+

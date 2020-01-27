@@ -1,0 +1,23 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+16:14:54:8857,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+16:14:54:8865,Select Drug,Clycopyrrolate injection,-,-,-,-,-,16:14:57:7597,
+16:14:57:7597,Move Syringe,no,0.00,0,0,0,0,16:15:00:6213,
+16:15:00:6213,Fill Syringe,Clycopyrrolate injection,16,1,0,0,0,16:15:02:5924,
+16:15:02:5924,Apply Lable,Clycopyrrolate injection,16,1,1,0,0,16:15:03:7845,
+16:15:03:7845,AdministerSyringe,Clycopyrrolate injection,16,1,1,1,0,16:15:05:3415,
+16:15:05:3415,Trash Syringe,Clycopyrrolate injection,16,1,1,1,1,16:15:09:1555,
+16:15:09:9339,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+16:15:09:9339,Select Drug,Cefazolin,-,-,-,-,-,16:15:13:4089,
+16:15:13:4089,Move Syringe,no,0.00,0,0,0,0,16:15:17:8720,
+16:15:17:8720,Fill Syringe,Cefazolin,16,1,0,0,0,16:15:18:9991,
+16:15:18:9991,Apply Lable,Cefazolin,16,1,1,0,0,16:15:20:2075,
+16:15:21:2846,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 15 mL of Atropine
+16:15:22:1291,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 21 mL of Propofol
+16:15:22:9248,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 4 mL of Midazolam
+16:15:23:5706,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 19 mL of Propofol
+16:15:24:2660,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 3 mL of Midazolam
+16:15:24:9129,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 22 mL of Propofol
+16:15:25:5091,New Task,Succinylcholine,, ---,---,---,---,---,Prepare and administer 4 mL of Succinylcholine
+16:15:26:0390,New Task,Succinylcholine,, ---,---,---,---,---,Prepare and administer 8 mL of Succinylcholine
+16:15:26:5530,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 3 mL of Lidocaine
+

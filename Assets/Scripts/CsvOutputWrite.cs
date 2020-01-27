@@ -11,7 +11,6 @@ public class CsvOutputWrite : MonoBehaviour
 
     private List<string[]> rowData = new List<string[]>();
     private string filepath;
-    private DateTime SimulationStartTime;
     public DateTime SelectDrugStartTime { get; set; }
     public DateTime MoveSyringeStartTime { get; set; }
     public DateTime FillSyringeStartTime { get; set; }
@@ -23,7 +22,6 @@ public class CsvOutputWrite : MonoBehaviour
     {
         SetUp();
         filepath = Application.dataPath + "/OutputFiles/" + "TasksOutput" + DateTime.Now.ToString("MM-dd-yy-H-mm") + ".csv";
-        SimulationStartTime = DateTime.Now;
     }
 
     void SetUp()
@@ -50,7 +48,7 @@ public class CsvOutputWrite : MonoBehaviour
         {
             case "NewTask":
 
-                rowDataTemp[0] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[0] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "New Task";
                 rowDataTemp[2] = this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DrugName;
                 rowDataTemp[3] = ""; //TODO what would that volume be. either kylie provides it and we add it to the input file, or I should know to calculate it from the data we have : patient weight, concentration, dosage ...
@@ -58,19 +56,20 @@ public class CsvOutputWrite : MonoBehaviour
                 rowDataTemp[5] = "---";
                 rowDataTemp[6] = "---";
                 rowDataTemp[7] = "---";
-                rowDataTemp[8] = SimulationStartTime.AddSeconds(this.gameObject.GetComponent<TasksManagementScript>().TasksList[TasksManagementScript.index + 1].TimeToPresent).ToLongTimeString();
-                rowDataTemp[9] = "Prepare the appropriate dose of " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DrugName + " " +
-                                  this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.Concentration + " " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.ConcentrationUnit +
-                                  " (" + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.Unit + ") " + "for a  " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.PatientWeight + " kg patient."
-                                 + " Dose for " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DrugName + ": " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DosingNumber +
-                                 " " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DosingUnit;
+                rowDataTemp[8] = "---";//SimulationStartTime.AddSeconds(this.gameObject.GetComponent<TasksManagementScript>().TasksList[TasksManagementScript.index + 1].TimeToPresent).ToString("HH:mm:ss:ffff");
+                rowDataTemp[9] = this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.FullText;
+                //rowDataTemp[9] = "Prepare the appropriate dose of " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DrugName + " " +
+                //                  this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.Concentration + " " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.ConcentrationUnit +
+                //                  " (" + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.Unit + ") " + "for a  " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.PatientWeight + " kg patient."
+                //                 + " Dose for " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DrugName + ": " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DosingNumber +
+                //                 " " + this.gameObject.GetComponent<TasksManagementScript>().CurrentTask.DosingUnit;
                 rowData.Add(rowDataTemp);
                 SelectDrugStartTime = DateTime.Now;
                 break;
 
             case "DrugSelected":
 
-                rowDataTemp[0] = SelectDrugStartTime.ToLongTimeString();
+                rowDataTemp[0] = SelectDrugStartTime.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "Select Drug";
                 rowDataTemp[2] = SyringeOrVial.GetComponent<VialManagerScript>().DrugInside.DrugName;
                 rowDataTemp[3] = "-";
@@ -78,16 +77,16 @@ public class CsvOutputWrite : MonoBehaviour
                 rowDataTemp[5] = "-";
                 rowDataTemp[6] = "-";
                 rowDataTemp[7] = "-";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 rowData.Add(rowDataTemp);
                 MoveSyringeStartTime = DateTime.Now;
                 break;
 
             case "VialRemoved":
                 if(MoveSyringeStartTime>FillSyringeStartTime)
-                rowDataTemp[0] = MoveSyringeStartTime.ToLongTimeString();
+                rowDataTemp[0] = MoveSyringeStartTime.ToString("HH:mm:ss:ffff");
                 else
-                rowDataTemp[0] = FillSyringeStartTime.ToLongTimeString();
+                rowDataTemp[0] = FillSyringeStartTime.ToString("HH:mm:ss:ffff");
 
                 rowDataTemp[1] = "Remove Drug";
                 rowDataTemp[2] = SyringeOrVial.GetComponent<VialManagerScript>().DrugInside.DrugName;
@@ -96,7 +95,7 @@ public class CsvOutputWrite : MonoBehaviour
                 rowDataTemp[5] = "-";
                 rowDataTemp[6] = "-";
                 rowDataTemp[7] = "-";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 
 
                 SelectDrugStartTime = DateTime.Now;
@@ -106,7 +105,7 @@ public class CsvOutputWrite : MonoBehaviour
 
             case "SyringeMoved":
 
-                rowDataTemp[0] = MoveSyringeStartTime.ToLongTimeString();
+                rowDataTemp[0] = MoveSyringeStartTime.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "Move Syringe";
                 rowDataTemp[2] = "no";
                 rowDataTemp[3] = "0.00";
@@ -114,36 +113,36 @@ public class CsvOutputWrite : MonoBehaviour
                 rowDataTemp[5] = "0";
                 rowDataTemp[6] = "0";
                 rowDataTemp[7] = "0";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 FillSyringeStartTime = DateTime.Now;
                 rowData.Add(rowDataTemp);
                 break;
 
             case "SyringeFilled":
 
-                rowDataTemp[0] = FillSyringeStartTime.ToLongTimeString();
+                rowDataTemp[0] = FillSyringeStartTime.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "Fill Syringe";
                 rowDataTemp[2] = SyringeOrVial.GetComponent<SyringeManagerScript>().DrugInside.DrugName;
-                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F2");
+                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F0");
                 rowDataTemp[4] = "1";
                 rowDataTemp[5] = "0";
                 rowDataTemp[6] = "0";
                 rowDataTemp[7] = "0";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 ApplyTagStartTime = DateTime.Now;
                 rowData.Add(rowDataTemp);
                 break;
 
             case "SyringeTrashed":
 
-                rowDataTemp[0] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[0] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "Trash Syringe";
                 
 
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().DrugInside != null)
                 {
                     rowDataTemp[2] = SyringeOrVial.GetComponent<SyringeManagerScript>().DrugInside.DrugName;
-                    rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F2");
+                    rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F0");
 
                     
                 }
@@ -155,10 +154,10 @@ public class CsvOutputWrite : MonoBehaviour
 
                     if (FillSyringeStartTime < MoveSyringeStartTime)// this means that the syringe was never moved to the filling area
                     {
-                        rowDataTemp[0] = MoveSyringeStartTime.ToLongTimeString();
+                        rowDataTemp[0] = MoveSyringeStartTime.ToString("HH:mm:ss:ffff");
                     }
                     else
-                        rowDataTemp[0] = FillSyringeStartTime.ToLongTimeString();
+                        rowDataTemp[0] = FillSyringeStartTime.ToString("HH:mm:ss:ffff");
 
                 }
 
@@ -166,7 +165,7 @@ public class CsvOutputWrite : MonoBehaviour
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().TimeFinishedFilling!=null)
                 {
                     rowDataTemp[4] = "1";
-                    rowDataTemp[0] = ApplyTagStartTime.ToLongTimeString();
+                    rowDataTemp[0] = ApplyTagStartTime.ToString("HH:mm:ss:ffff");
                 }
                 else
                 {
@@ -176,7 +175,7 @@ public class CsvOutputWrite : MonoBehaviour
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().IsTagged != false)
                 {
                     rowDataTemp[5] = "1";
-                    rowDataTemp[0] = AdministerSyringeStartTime.ToLongTimeString();
+                    rowDataTemp[0] = AdministerSyringeStartTime.ToString("HH:mm:ss:ffff");
                 }
                 else
                 {
@@ -186,7 +185,7 @@ public class CsvOutputWrite : MonoBehaviour
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().TimeAdminstred != null)
                 {
                     rowDataTemp[6] = "1";
-                    rowDataTemp[0] = TrashSyringeStartTime.ToLongTimeString();
+                    rowDataTemp[0] = TrashSyringeStartTime.ToString("HH:mm:ss:ffff");
                 }
                 else
                 {
@@ -194,7 +193,7 @@ public class CsvOutputWrite : MonoBehaviour
                 }
 
                 rowDataTemp[7] = "1";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 SelectDrugStartTime = DateTime.Now;
                 MoveSyringeStartTime = DateTime.Now;
                 rowData.Add(rowDataTemp);
@@ -202,10 +201,10 @@ public class CsvOutputWrite : MonoBehaviour
 
             case "SyringeTagged":
 
-                rowDataTemp[0] = ApplyTagStartTime.ToLongTimeString();
+                rowDataTemp[0] = ApplyTagStartTime.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "Apply Lable";
                 rowDataTemp[2] = SyringeOrVial.GetComponent<SyringeManagerScript>().DrugInside.DrugName;
-                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F2");
+                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F0");
 
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().TimeFinishedFilling != null)
                 {
@@ -219,7 +218,7 @@ public class CsvOutputWrite : MonoBehaviour
                 rowDataTemp[5] = "1";
                 rowDataTemp[6] = "0";
                 rowDataTemp[7] = "0";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 AdministerSyringeStartTime = DateTime.Now;
                 rowData.Add(rowDataTemp);
                 break;
@@ -228,10 +227,10 @@ public class CsvOutputWrite : MonoBehaviour
 
             case "SyringeAdministered":
 
-                rowDataTemp[0] = ApplyTagStartTime.ToLongTimeString();
+                rowDataTemp[0] = ApplyTagStartTime.ToString("HH:mm:ss:ffff");
                 rowDataTemp[1] = "AdministerSyringe";
                 rowDataTemp[2] = SyringeOrVial.GetComponent<SyringeManagerScript>().DrugInside.DrugName;
-                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F2");
+                rowDataTemp[3] = SyringeOrVial.GetComponent<SyringeManagerScript>().VolumeInside.ToString("F0");
 
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().TimeFinishedFilling != null)
                 {
@@ -245,7 +244,7 @@ public class CsvOutputWrite : MonoBehaviour
                 if (SyringeOrVial.GetComponent<SyringeManagerScript>().IsTagged != false)
                 {
                     rowDataTemp[5] = "1";
-                    rowDataTemp[0] = AdministerSyringeStartTime.ToLongTimeString();
+                    rowDataTemp[0] = AdministerSyringeStartTime.ToString("HH:mm:ss:ffff");
                 }
                 else
                 {
@@ -253,7 +252,7 @@ public class CsvOutputWrite : MonoBehaviour
                 }
                 rowDataTemp[6] = "1";
                 rowDataTemp[7] = "0";
-                rowDataTemp[8] = DateTime.Now.ToLongTimeString();
+                rowDataTemp[8] = DateTime.Now.ToString("HH:mm:ss:ffff");
                 TrashSyringeStartTime = DateTime.Now;
                 rowData.Add(rowDataTemp);
                 break;

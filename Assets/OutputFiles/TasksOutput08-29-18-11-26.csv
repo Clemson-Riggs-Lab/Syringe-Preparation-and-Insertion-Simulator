@@ -1,0 +1,24 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+11:27:40:7953,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+11:27:40:7958,Select Drug,Vecuronium,-,-,-,-,-,11:27:56:2462,
+11:27:56:2462,Move Syringe,no,0.00,0,0,0,0,11:28:12:2605,
+11:28:12:2605,Fill Syringe,Vecuronium,6,1,0,0,0,11:28:44:7638,
+11:28:44:7638,Apply Lable,Vecuronium,6,1,1,0,0,11:28:55:7963,
+11:28:55:7963,AdministerSyringe,Vecuronium,6,1,1,1,0,11:29:03:7315,
+11:29:03:7315,Trash Syringe,Vecuronium,6,1,1,1,1,11:29:15:5765,
+11:29:15:5765,Select Drug,Atropine,-,-,-,-,-,11:29:32:9881,
+11:29:32:9881,Remove Drug,Atropine,-,-,-,-,-,11:29:37:3030,
+11:29:37:3030,Select Drug,Atropine,-,-,-,-,-,11:30:00:6914,
+11:30:00:6919,Move Syringe,no,0.00,0,0,0,0,11:30:02:3549,
+11:30:02:3549,Fill Syringe,Atropine,6,1,0,0,0,11:30:04:0454,
+11:30:04:0454,Apply Lable,Atropine,6,1,1,0,0,11:30:08:6668,
+11:30:08:6668,AdministerSyringe,Atropine,6,1,1,1,0,11:30:53:1320,
+11:30:53:1320,Trash Syringe,Atropine,6,1,1,1,1,11:30:55:9766,
+11:31:09:9088,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+11:31:09:9088,Select Drug,Midazolam,-,-,-,-,-,11:31:14:6106,
+11:31:14:6106,Move Syringe,no,0.00,0,0,0,0,11:31:18:4835,
+11:31:18:4835,Fill Syringe,Midazolam,8,1,0,0,0,11:31:22:0959,
+11:31:22:0959,Apply Lable,Midazolam,8,1,1,0,0,11:31:24:5970,
+11:31:24:5970,AdministerSyringe,Midazolam,8,1,1,1,0,11:31:30:6273,
+11:31:30:6273,Trash Syringe,Midazolam,8,1,1,1,1,11:31:35:9309,
+

@@ -1,0 +1,16 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+09:24:30:8576,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+09:24:30:8576,Select Drug,Vecuronium,-,-,-,-,-,09:24:48:2475,
+09:24:48:2475,Move Syringe,no,0.00,0,0,0,0,09:25:13:7058,
+09:25:13:7058,Fill Syringe,Vecuronium,6,1,0,0,0,09:25:30:2229,
+09:25:30:2229,Apply Lable,Vecuronium,6,1,1,0,0,09:25:45:1652,
+09:25:45:1652,AdministerSyringe,Vecuronium,6,1,1,1,0,09:25:54:8061,
+09:25:54:8061,Trash Syringe,Vecuronium,6,1,1,1,1,09:26:04:4114,
+09:26:08:7018,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+09:26:08:7018,Select Drug,Midazolam,-,-,-,-,-,09:27:01:8654,
+09:27:01:8654,Move Syringe,no,0.00,0,0,0,0,09:27:07:1254,
+09:27:07:1254,Fill Syringe,Midazolam,8,1,0,0,0,09:27:14:0012,
+09:27:14:0012,Apply Lable,Midazolam,8,1,1,0,0,09:27:17:2809,
+09:27:17:2809,AdministerSyringe,Midazolam,8,1,1,1,0,09:27:21:0916,
+09:27:21:0916,Trash Syringe,Midazolam,8,1,1,1,1,09:27:26:5496,
+

@@ -1,0 +1,8 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+00:00:00:0000,Select Drug,Clycopyrrolate injection,-,-,-,-,-,09:50:13:7421,
+09:50:13:7421,Move Syringe,no,0.00,0,0,0,0,09:50:15:6141,
+09:50:15:6141,Fill Syringe,Clycopyrrolate injection,25,1,0,0,0,09:50:18:0327,
+09:50:18:0327,Apply Lable,Clycopyrrolate injection,25,1,1,0,0,09:50:19:4566,
+09:50:19:4566,AdministerSyringe,Clycopyrrolate injection,25,1,1,1,0,09:56:27:3130,
+09:56:27:3130,Trash Syringe,Clycopyrrolate injection,25,1,1,1,1,09:56:29:7210,
+

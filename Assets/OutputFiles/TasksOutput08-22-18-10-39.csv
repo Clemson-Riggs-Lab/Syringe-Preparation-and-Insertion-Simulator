@@ -1,0 +1,10 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+10:39:56:2155,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+10:39:56:2160,Select Drug,Atropine,-,-,-,-,-,10:39:58:6889,
+10:39:58:6889,Move Syringe,no,0.00,0,0,0,0,10:40:00:4379,
+10:40:00:4379,Fill Syringe,Atropine,8,1,0,0,0,10:40:02:5257,
+10:40:02:5257,Apply Lable,Atropine,8,1,1,0,0,10:40:05:2083,
+10:40:05:2083,AdministerSyringe,Atropine,8,1,1,1,0,10:40:09:6815,
+10:40:11:3703,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+10:40:09:6815,Trash Syringe,Atropine,8,1,1,1,1,10:40:13:5909,
+

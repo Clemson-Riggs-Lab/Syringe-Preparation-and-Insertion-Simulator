@@ -341,7 +341,7 @@ MonoBehaviour:
   FillingPlaceholderVicinityThreshold: 3
   TrashCanVicinityThreshold: 4
   InitialPositionVicinityThreshold: 5
-  IVLineVicinityThreshold: 4
+  IVLineVicinityThreshold: 6
 --- !u!114 &114854317942658358
 MonoBehaviour:
   m_ObjectHideFlags: 1

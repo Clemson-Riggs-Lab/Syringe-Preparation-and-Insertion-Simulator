@@ -1,0 +1,4 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+00:00:00:0000,Select Drug,Fentanyl,-,-,-,-,-,10:14:38:9537,
+10:14:44:5666,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+

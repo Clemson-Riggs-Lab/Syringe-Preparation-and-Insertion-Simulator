@@ -1,0 +1,12 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+00:00:00:0000,Select Drug,Lidocaine,-,-,-,-,-,13:27:24:6716,
+13:27:24:6716,Remove Drug,Lidocaine,-,-,-,-,-,13:27:29:3069,
+13:27:29:3069,Select Drug,Succinylcholine,-,-,-,-,-,13:27:34:1120,
+13:27:34:1120,Remove Drug,Succinylcholine,-,-,-,-,-,13:27:38:6509,
+13:27:38:6509,Select Drug,Neostigmine,-,-,-,-,-,13:27:42:5744,
+13:27:42:5744,Move Syringe,no,0.00,0,0,0,0,13:27:50:2019,
+13:27:50:2019,Fill Syringe,Neostigmine,21,1,0,0,0,13:28:13:3894,
+13:28:13:3894,Apply Lable,Neostigmine,21,1,1,0,0,13:28:18:2555,
+13:28:31:7840,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+13:28:18:2555,Trash Syringe,Neostigmine,21,1,1,0,1,14:01:30:4643,
+

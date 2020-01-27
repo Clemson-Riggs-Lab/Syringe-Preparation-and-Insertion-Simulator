@@ -55,8 +55,8 @@ public class SceneManagementScript : MonoBehaviour {
 
         }
         else
-            this.gameObject.GetComponent<PopupWindow>().Open("cant add a syringe because there is already one attached to the initial position. this isnt supposed to happen.contact developer");
-        //EditorUtility.DisplayDialog("Flow Violation", "cant add a syringe because there is already one attached to the initial position. this isnt supposed to happen. contact developer", "Ok"); // Issue Warning
+           // this.gameObject.GetComponent<PopupWindow>().Open("cant add a syringe because there is already one attached to the initial position. this isnt supposed to happen.contact developer");
+        EditorUtility.DisplayDialog("Flow Violation", "cant add a syringe because there is already one attached to the initial position. this isnt supposed to happen. contact developer", "Ok"); // Issue Warning
 
     }
 
@@ -87,21 +87,21 @@ public class SceneManagementScript : MonoBehaviour {
     {
         if(DrugsDropdown.value==0)
         {
-            this.gameObject.GetComponent<PopupWindow>().Open("Please select a vial to add");
-           // EditorUtility.DisplayDialog("Flow Violation", , "Ok"); // Issue Warning
+           // this.gameObject.GetComponent<PopupWindow>().Open("Please select a vial to add");
+            EditorUtility.DisplayDialog("Flow Violation", "Please select a vial to add", "Ok"); // Issue Warning
             return;
 
         }
         else if (VialInFillingArea!= null)
         {
-            this.gameObject.GetComponent<PopupWindow>().Open("Drug Vial already in filling area");
-           // EditorUtility.DisplayDialog("Flow Violation", , "Ok"); // Issue Warning
+           // this.gameObject.GetComponent<PopupWindow>().Open("Drug Vial already in filling area");
+            EditorUtility.DisplayDialog("Flow Violation", "Drug Vial already in filling area", "Ok"); // Issue Warning
             return;
         }
         else if (NewSyringePlaceholder.GetComponent<PlaceholderManagerScript>().IsEmpty==true)
         {
-            this.gameObject.GetComponent<PopupWindow>().Open( "Finish the previous task first");
-           // EditorUtility.DisplayDialog("Flow Violation",, "Ok"); // Issue Warning
+          //  this.gameObject.GetComponent<PopupWindow>().Open( "Finish the previous task first");
+            EditorUtility.DisplayDialog("Flow Violation", "Finish the previous task first", "Ok"); // Issue Warning
             return;
         }
         else
@@ -116,7 +116,7 @@ public class SceneManagementScript : MonoBehaviour {
             Vial.GetComponent<GeneralManagerScript>().Destination = VialFillingAreaPlaceholder;
             Vial.transform.Find("Tag/FirstColor").gameObject.GetComponent<Renderer>().material.color = drugInside.PrimaryColor;
             Vial.transform.Find("Tag/SecondColor").gameObject.GetComponent<Renderer>().material.color = drugInside.SecondaryColor;
-            Vial.transform.Find("Tag/TagText").gameObject.GetComponent<TextMesh>().text = drugInside.DrugName + " \n volume: " + AmmountSlider.value.ToString("F2") + " ml";
+            Vial.transform.Find("Tag/TagText").gameObject.GetComponent<TextMesh>().text = drugInside.DrugName + " \n volume: " + AmmountSlider.value.ToString("F0") + " ml";
             gameObject.GetComponent<DisplayTextScript>().SetVialInfo(Vial);
             ConnectVial(Vial);
             this.gameObject.GetComponent<CsvOutputWrite>().AddEvent("DrugSelected", Vial);
@@ -130,8 +130,8 @@ public class SceneManagementScript : MonoBehaviour {
     {
         if(SyringeInFillingArea==null )
         {
-            this.gameObject.GetComponent<PopupWindow>().Open("You cant Fill without connecting a syringe.");
-            //EditorUtility.DisplayDialog("Flow Violation", , "Ok"); // Issue warning  Cant fill without syringe
+            //this.gameObject.GetComponent<PopupWindow>().Open("You cant Fill without connecting a syringe.");
+            EditorUtility.DisplayDialog("Flow Violation", "You cant Fill without connecting a syringe.", "Ok"); // Issue warning  Cant fill without syringe
             return;
         }
         if (SyringeInFillingArea.GetComponent<SyringeManagerScript>().SyringeStatus == SyringeManagerScript.Status.OnFillingPosition)
@@ -243,7 +243,7 @@ public class SceneManagementScript : MonoBehaviour {
         Tag.transform.position = TagInitialPlaceholder.transform.position;// giving it a position in order to find a distance in the search function
         Tag.transform.Find("FirstColor").gameObject.GetComponent<Renderer>().material.color = drugInside.PrimaryColor;
         Tag.transform.Find("SecondColor").gameObject.GetComponent<Renderer>().material.color = drugInside.SecondaryColor;
-        Tag.transform.Find("TagText").gameObject.GetComponent<TextMesh>().text= drugInside.DrugName + " \n volume: " + AmmountSlider.value.ToString("F2") + " ml";
+        Tag.transform.Find("TagText").gameObject.GetComponent<TextMesh>().text= drugInside.DrugName + " \n volume: " + AmmountSlider.value.ToString("F0") + " ml";
 
         //  throw new NotImplementedException();
     }

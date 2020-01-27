@@ -1,0 +1,8 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+10:28:56:1348,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+10:28:56:1348,Select Drug,Vecuronium,-,-,-,-,-,10:29:01:0110,
+10:29:01:0110,Move Syringe,no,0.00,0,0,0,0,10:29:06:0894,
+10:29:06:0894,Fill Syringe,Vecuronium,6,1,0,0,0,10:29:11:3080,
+10:29:11:3080,Apply Lable,Vecuronium,6,1,1,0,0,10:29:12:8480,
+10:29:12:8480,AdministerSyringe,Vecuronium,6,1,1,1,0,10:29:15:2995,
+

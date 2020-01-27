@@ -1,0 +1,9 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+10:00:39:4282,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+10:00:39:4287,Select Drug,Lidocaine,-,-,-,-,-,10:00:46:3035,
+10:00:46:3035,Move Syringe,no,0.00,0,0,0,0,10:00:48:8721,
+10:00:48:8721,Fill Syringe,Lidocaine,4,1,0,0,0,10:00:53:8238,
+10:00:53:8238,Apply Lable,Lidocaine,4,1,1,0,0,10:00:55:3303,
+10:00:55:3303,AdministerSyringe,Lidocaine,4,1,1,1,0,10:00:57:2520,
+10:00:57:2520,Trash Syringe,Lidocaine,4,1,1,1,1,10:01:00:2296,
+

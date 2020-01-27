@@ -1,0 +1,31 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+14:27:08:5876,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+14:27:08:5881,Select Drug,Vecuronium,-,-,-,-,-,14:27:29:7237,
+14:27:29:7237,Move Syringe,no,0.00,0,0,0,0,14:27:40:6515,
+14:27:40:6515,Fill Syringe,Vecuronium,6,1,0,0,0,14:28:02:9661,
+14:28:02:9661,Apply Lable,Vecuronium,6,1,1,0,0,14:28:23:4754,
+14:28:23:4754,AdministerSyringe,Vecuronium,6,1,1,1,0,14:28:39:1800,
+14:28:39:1800,Trash Syringe,Vecuronium,6,1,1,1,1,14:28:49:1761,
+14:28:51:4788,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+14:28:51:4788,Select Drug,Cefazolin,-,-,-,-,-,14:29:07:5460,
+14:29:07:5460,Remove Drug,Cefazolin,-,-,-,-,-,14:29:12:7917,
+14:29:12:7917,Select Drug,Midazolam,-,-,-,-,-,14:29:57:8823,
+14:29:57:8823,Move Syringe,no,0.00,0,0,0,0,14:30:05:5825,
+14:30:05:5825,Fill Syringe,Midazolam,8,1,0,0,0,14:30:15:7890,
+14:30:15:7890,Apply Lable,Midazolam,8,1,1,0,0,14:30:20:1947,
+14:30:20:1947,AdministerSyringe,Midazolam,8,1,1,1,0,14:30:34:5256,
+14:30:34:5256,Trash Syringe,Midazolam,8,1,1,1,1,14:30:38:7814,
+14:30:38:7814,Select Drug,Midazolam,-,-,-,-,-,14:30:43:9642,
+14:30:43:9642,Move Syringe,no,0.00,0,0,0,0,14:30:48:8086,
+14:30:48:8086,Fill Syringe,Midazolam,8,1,0,0,0,14:30:58:3510,
+14:30:58:3510,Apply Lable,Midazolam,8,1,1,0,0,14:31:00:9680,
+14:31:00:9680,AdministerSyringe,Midazolam,8,1,1,1,0,14:31:04:6133,
+14:31:04:6133,Trash Syringe,Midazolam,8,1,1,1,1,14:31:08:2500,
+14:31:19:1017,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+14:31:19:1017,Select Drug,Atropine,-,-,-,-,-,14:31:29:1874,
+14:31:29:1874,Move Syringe,no,0.00,0,0,0,0,14:31:32:7067,
+14:31:32:7067,Fill Syringe,Atropine,12,1,0,0,0,14:31:36:2857,
+14:31:36:2857,Apply Lable,Atropine,12,1,1,0,0,14:31:37:9913,
+14:31:37:9913,AdministerSyringe,Atropine,12,1,1,1,0,14:31:40:4769,
+14:31:40:4769,Trash Syringe,Atropine,12,1,1,1,1,14:31:44:1176,
+

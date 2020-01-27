@@ -1,0 +1,7 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+00:00:00:0000,Select Drug,Atropine,-,-,-,-,-,13:03:48:4025,
+13:03:48:4025,Move Syringe,no,0.00,0,0,0,0,13:03:50:4980,
+13:03:50:4980,Fill Syringe,Atropine,32,1,0,0,0,13:03:54:8284,
+13:03:54:8284,Apply Lable,Atropine,32,1,1,0,0,13:03:56:4956,
+13:03:56:4956,AdministerSyringe,Atropine,32,1,1,1,0,13:03:58:5838,
+

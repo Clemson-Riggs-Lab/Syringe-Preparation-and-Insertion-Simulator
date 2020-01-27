@@ -1,0 +1,35 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+11:07:29:0585,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+11:07:29:0590,Select Drug,Vecuronium,-,-,-,-,-,11:07:52:2609,
+11:07:52:2609,Move Syringe,no,0.00,0,0,0,0,11:08:01:1517,
+11:08:01:1517,Fill Syringe,Vecuronium,4,1,0,0,0,11:08:15:1181,
+11:08:15:1181,Apply Lable,Vecuronium,4,1,1,0,0,11:08:22:0579,
+11:08:22:0579,AdministerSyringe,Vecuronium,4,1,1,1,0,11:08:35:0622,
+11:08:35:0622,Trash Syringe,Vecuronium,4,1,1,1,1,11:08:53:5334,
+11:08:55:0571,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+11:08:55:0571,Select Drug,Midazolam,-,-,-,-,-,11:10:17:8043,
+11:10:17:8043,Move Syringe,no,0.00,0,0,0,0,11:10:20:3136,
+11:10:20:3136,Fill Syringe,Midazolam,8,1,0,0,0,11:10:25:0359,
+11:10:25:0359,Apply Lable,Midazolam,8,1,1,0,0,11:10:26:4101,
+11:10:26:4101,AdministerSyringe,Midazolam,8,1,1,1,0,11:10:30:2703,
+11:10:30:2703,Trash Syringe,Midazolam,8,1,1,1,1,11:10:34:5020,
+11:10:36:6723,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+11:10:36:6723,Select Drug,Atropine,-,-,-,-,-,11:14:30:0600,
+11:14:30:0600,Move Syringe,no,0.00,0,0,0,0,11:14:32:2218,
+11:14:32:2218,Fill Syringe,Atropine,12,1,0,0,0,11:14:34:7906,
+11:14:34:7906,Apply Lable,Atropine,12,1,1,0,0,11:14:36:0319,
+11:14:36:0319,AdministerSyringe,Atropine,12,1,1,1,0,11:14:39:7433,
+11:14:39:7433,Trash Syringe,Atropine,12,1,1,1,1,11:14:44:6398,
+11:15:04:0035,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+11:15:04:0035,Select Drug,Lidocaine,-,-,-,-,-,11:15:07:6784,
+11:15:07:6784,Move Syringe,no,0.00,0,0,0,0,11:15:09:6085,
+11:15:09:6085,Fill Syringe,Lidocaine,3,1,0,0,0,11:15:13:6349,
+11:15:13:6349,AdministerSyringe,Lidocaine,3,1,0,1,0,11:15:16:6324,
+11:15:16:6324,Trash Syringe,Lidocaine,3,1,0,1,1,11:15:19:8420,
+11:15:33:4654,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 7 mL of Lidocaine
+11:15:33:4654,Select Drug,Lidocaine,-,-,-,-,-,11:15:46:2019,
+11:15:46:2019,Move Syringe,no,0.00,0,0,0,0,11:15:49:1753,
+11:15:49:1753,Fill Syringe,Lidocaine,7,1,0,0,0,11:15:54:0463,
+11:15:54:0463,AdministerSyringe,Lidocaine,7,1,0,1,0,11:15:58:1213,
+11:15:58:1213,Trash Syringe,Lidocaine,7,1,0,1,1,11:16:09:9746,
+

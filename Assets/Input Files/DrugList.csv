@@ -1,13 +1,15 @@
-ID	DrugName	Concentration	ConcentrationUnit	AdditionalText	Unit	IsSyringe	PrimaryColorR	PrimaryColorG	PrimaryColorB	SecondaryColorR	SecondaryColorG	SecondaryColorB
-1	midazolam	1	mg/ml	(PF)	mg	0	255	165	0			
-2	propofol	10	mg/ml	bolus	mg	0	255	215	0			
-3	PHENYLephrine syring				mcg	1	216	191	216			
-4	ondansetron			(PF)	mg	0	255	255	255			
-5	fentaNYL	50	mcg/ml	(PF)	mcg	0	176	224	230			
-6	ROCuronium				mg	0	255	0	0			
-7	ceFAZolin	2	g/50ml	dextrose IVPB	g	0	255	255	255			
-8	sugammadex (BRIDION) injection	100	mg/ml		mg	0	255	0	0	255	255	255
-9	lidocaine	2	%		mg	0	192	192	192			
-10	succinylcholine syringe				mg	1	105	105	105	255	0	0
-11	glycopyrrolate injection				mg	0	144	238	144			
-12	neostigmine				mg	0	255	0	0	255	255	255
+ID,DrugName,Concentration,ConcentrationUnit,AdditionalText,Unit,IsSyringe,PrimaryColorR,PrimaryColorG,PrimaryColorB,SecondaryColorR,SecondaryColorG,SecondaryColorB
+1,Atropine,100,mcg/mL,,mcg,0,17,191,29,,,
+2,Cefazolin,2,g/50mL,dextrose IVPB,g,0,255,255,255,,,
+3,Clycopyrrolate injection,,,,mg,0,144,238,144,,,
+4,Fentanyl,50,mcg/mL,(PF),mcg,0,32,201,243,,,
+5,Lidocaine,2,%,,mg,0,192,192,192,,,
+6,Midazolam,1,mg/mL,(PF),mg,0,255,165,0,,,
+7,Neostigmine,,,,mg,0,255,0,0,255,255,255
+8,Ondansetron,,,(PF),mg,0,255,255,255,,,
+9,Phenylephrine syringe,,,,mcg,1,216,191,216,,,
+10,Propofol,10,mg/mL,bolus,mg,0,255,215,0,,,
+11,Rocuronium,10,mg/mL,,mg,0,255,0,0,,,
+12,Succinylcholine,20,mg/mL,,mg,0,22,22,22,255,0,0
+13,Sugammadex (BRIDION) injection,100,mg/mL,,mg,0,255,0,0,255,255,255
+14,Vecuronium,2,mg/mL,,mg,0,255,0,0,,,

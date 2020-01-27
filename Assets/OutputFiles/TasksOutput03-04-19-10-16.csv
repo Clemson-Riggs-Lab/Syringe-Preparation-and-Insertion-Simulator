@@ -1,0 +1,9 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+10:16:18:7684,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+10:16:18:7689,Select Drug,Cefazolin,-,-,-,-,-,10:16:21:2383,
+10:16:21:2383,Move Syringe,no,0.00,0,0,0,0,10:16:22:9159,
+10:16:22:9159,Fill Syringe,Cefazolin,7,1,0,0,0,10:16:24:4899,
+10:16:24:4899,Apply Lable,Cefazolin,7,1,1,0,0,10:16:26:3283,
+10:16:26:3283,AdministerSyringe,Cefazolin,7,1,1,1,0,10:16:27:8026,
+10:16:27:8026,Trash Syringe,Cefazolin,7,1,1,1,1,10:16:30:5255,
+

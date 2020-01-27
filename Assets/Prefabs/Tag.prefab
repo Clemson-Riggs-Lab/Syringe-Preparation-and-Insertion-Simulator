@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 2
-  speed: 15
+  speed: 90
   VicinityThreshold: 3
 --- !u!114 &114547313796385428
 MonoBehaviour:
@@ -355,6 +355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VicintyThreshold: 3
+  DrugName: 
+  Volume: 0
 --- !u!222 &222262755810361618
 CanvasRenderer:
   m_ObjectHideFlags: 1

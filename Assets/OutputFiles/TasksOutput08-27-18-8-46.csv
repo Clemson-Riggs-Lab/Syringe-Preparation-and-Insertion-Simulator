@@ -1,0 +1,35 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+08:46:01:1975,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+08:46:01:1980,Select Drug,Atropine,-,-,-,-,-,08:46:04:0678,
+08:46:04:0678,Move Syringe,no,0.00,0,0,0,0,08:46:05:1336,
+08:46:05:1336,Fill Syringe,Atropine,9,1,0,0,0,08:46:07:3044,
+08:46:07:3044,Apply Lable,Atropine,9,1,1,0,0,08:46:08:1151,
+08:46:08:1151,AdministerSyringe,Atropine,9,1,1,1,0,08:46:09:2246,
+08:46:09:2246,Trash Syringe,Atropine,9,1,1,1,1,08:46:11:4756,
+08:46:12:8503,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 8 mL of Midazolam
+08:46:13:5130,New Task,Atropine,, ---,---,---,---,---,Prepare and administer 12 mL of Atropine
+08:46:13:5130,Select Drug,Cefazolin,-,-,-,-,-,08:46:39:0488,
+08:46:39:0488,Move Syringe,no,0.00,0,0,0,0,08:46:40:7985,
+08:46:40:7985,Fill Syringe,Cefazolin,3,1,0,0,0,08:46:42:9861,
+08:46:42:9861,Apply Lable,Cefazolin,3,1,1,0,0,08:46:43:6644,
+08:46:43:6644,AdministerSyringe,Cefazolin,3,1,1,1,0,08:46:44:7082,
+08:46:44:7082,Trash Syringe,Cefazolin,3,1,1,1,1,08:46:47:3558,
+08:46:47:8355,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 4 mL of Lidocaine
+08:46:50:1387,New Task,Lidocaine,, ---,---,---,---,---,Prepare and administer 7 mL of Lidocaine
+08:46:50:1387,Select Drug,Lidocaine,-,-,-,-,-,08:47:08:5736,
+08:47:08:5736,Move Syringe,no,0.00,0,0,0,0,08:47:09:5457,
+08:47:09:5457,Fill Syringe,Lidocaine,7,1,0,0,0,08:47:12:0315,
+08:47:12:0315,Apply Lable,Lidocaine,7,1,1,0,0,08:47:12:7925,
+08:47:12:7925,AdministerSyringe,Lidocaine,7,1,1,1,0,08:47:13:8860,
+08:47:13:8860,Trash Syringe,Lidocaine,7,1,1,1,1,08:47:16:0081,
+08:47:35:9430,New Task,Midazolam,, ---,---,---,---,---,Prepare and administer 5 mL of Midazolam
+08:47:36:3235,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 22 mL of Propofol
+08:47:36:3235,Select Drug,Propofol,-,-,-,-,-,08:47:56:3207,
+08:47:56:3207,Move Syringe,no,0.00,0,0,0,0,08:47:58:4669,
+08:47:58:4669,Fill Syringe,Propofol,23,1,0,0,0,08:48:02:1788,
+08:48:02:1788,Apply Lable,Propofol,23,1,1,0,0,08:48:03:1223,
+08:48:03:1223,AdministerSyringe,Propofol,23,1,1,1,0,08:48:04:6629,
+08:48:04:6629,Trash Syringe,Propofol,23,1,1,1,1,08:48:35:7440,
+08:48:39:9196,New Task,Rocuronium,, ---,---,---,---,---,Prepare and administer 12 mL of Rocuronium
+08:48:39:9196,Select Drug,Cefazolin,-,-,-,-,-,08:48:42:3346,
+

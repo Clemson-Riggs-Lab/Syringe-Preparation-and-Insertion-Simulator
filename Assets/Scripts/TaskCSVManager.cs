@@ -16,8 +16,8 @@ public class TaskCSVManager : MonoBehaviour
         isLoaded = false;
         Load(file);
 
-        System.Comparison<Task> comparison = (x, y) => x.TimeToPresent.CompareTo(y.TimeToPresent);
-        TasksList.Sort(comparison);
+        //System.Comparison<Task> comparison = (x, y) => x.TaskNumber.CompareTo(y.TaskNumber);
+        //TasksList.Sort(comparison);
 
     }
 
@@ -42,14 +42,9 @@ public class TaskCSVManager : MonoBehaviour
         {
             Task task = new Task();
             task.TaskNumber = grid[i][0];
-            task.TimeToPresent = TimeSpan.Parse(grid[i][1]).TotalSeconds;
-            task.DrugName = grid[i][2];
-            task.Concentration = grid[i][3];
-            task.ConcentrationUnit = grid[i][4];
-            task.Unit = grid[i][5];
-            task.PatientWeight = grid[i][6];
-            task.DosingNumber = grid[i][7];
-            task.DosingUnit = grid[i][8];
+            task.DrugName = grid[i][1];
+            task.FullText = grid[i][2];
+
 
 
             TasksList.Add(task);
@@ -77,13 +72,13 @@ public class TaskCSVManager : MonoBehaviour
     {
         return TasksList.FindAll(x => x.TaskNumber == find);
     }
-    public Task Find_TimeToPresent(double find)
+    public Task Find_FullText(string find)
     {
-        return TasksList.Find(x => x.TimeToPresent == find);
+        return TasksList.Find(x => x.FullText == find);
     }
-    public List<Task> FindAll_TimeToPresent(double find)
+    public List<Task> FindAll_FullText(string find)
     {
-        return TasksList.FindAll(x => x.TimeToPresent == find);
+        return TasksList.FindAll(x => x.FullText == find);
     }
     public Task Find_DrugName(string find)
     {
@@ -92,54 +87,6 @@ public class TaskCSVManager : MonoBehaviour
     public List<Task> FindAll_DrugName(string find)
     {
         return TasksList.FindAll(x => x.DrugName == find);
-    }
-    public Task Find_Concentration(string find)
-    {
-        return TasksList.Find(x => x.Concentration == find);
-    }
-    public List<Task> FindAll_Concentration(string find)
-    {
-        return TasksList.FindAll(x => x.Concentration == find);
-    }
-    public Task Find_ConcentrationUnit(string find)
-    {
-        return TasksList.Find(x => x.ConcentrationUnit == find);
-    }
-    public List<Task> FindAll_ConcentrationUnit(string find)
-    {
-        return TasksList.FindAll(x => x.ConcentrationUnit == find);
-    }
-    public Task Find_Unit(string find)
-    {
-        return TasksList.Find(x => x.Unit == find);
-    }
-    public List<Task> FindAll_Unit(string find)
-    {
-        return TasksList.FindAll(x => x.Unit == find);
-    }
-    public Task Find_PatientWeight(string find)
-    {
-        return TasksList.Find(x => x.PatientWeight == find);
-    }
-    public List<Task> FindAll_PatientWeight(string find)
-    {
-        return TasksList.FindAll(x => x.PatientWeight == find);
-    }
-    public Task Find_DosingNumber(string find)
-    {
-        return TasksList.Find(x => x.DosingNumber == find);
-    }
-    public List<Task> FindAll_DosingNumber(string find)
-    {
-        return TasksList.FindAll(x => x.DosingNumber == find);
-    }
-    public Task Find_DosingUnit(string find)
-    {
-        return TasksList.Find(x => x.DosingUnit == find);
-    }
-    public List<Task> FindAll_DosingUnit(string find)
-    {
-        return TasksList.FindAll(x => x.DosingUnit == find);
     }
 
 }

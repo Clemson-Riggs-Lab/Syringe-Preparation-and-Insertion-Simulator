@@ -1,0 +1,9 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+16:20:47:3931,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 6 mL of Vecuronium
+16:20:47:3931,Select Drug,Atropine,-,-,-,-,-,16:20:59:0418,
+16:20:59:0418,Move Syringe,no,0.00,0,0,0,0,16:21:01:8107,
+16:21:01:8107,Fill Syringe,Atropine,6,1,0,0,0,16:21:06:5807,
+16:21:06:5807,Apply Lable,Atropine,6,1,1,0,0,16:21:08:0221,
+16:21:08:0221,AdministerSyringe,Atropine,6,1,1,1,0,16:21:10:8872,
+16:21:10:8872,Trash Syringe,Atropine,6,1,1,1,1,16:21:13:8752,
+

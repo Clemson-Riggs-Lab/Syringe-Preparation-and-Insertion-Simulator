@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{76C89E08-05DE-8C05-FE0D-3340FB3B674A}</ProjectGuid>
+    <ProjectGuid>{B3A5CE6F-8D38-1D67-2D3F-02B17870AEDE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -73,10 +73,10 @@
      <Compile Include="Assets\Scripts\VialManagerScript.cs" />
      <Compile Include="Assets\TouchPhysics\Scripts\TouchPhysics.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>C:/Users/admin/Desktop/Finished Simulations-20200127T174007Z-001/Finished Simulations/timedSyringeProject/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/Finished Simulations-20200127T174007Z-001/Finished Simulations/notTimedSyringeProject - 8-18-2018/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/Users/admin/Desktop/Finished Simulations-20200127T174007Z-001/Finished Simulations/timedSyringeProject/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/Users/admin/Desktop/Finished Simulations-20200127T174007Z-001/Finished Simulations/notTimedSyringeProject - 8-18-2018/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.1f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

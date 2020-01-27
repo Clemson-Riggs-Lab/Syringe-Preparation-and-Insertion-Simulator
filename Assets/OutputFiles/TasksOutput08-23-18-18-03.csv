@@ -1,0 +1,17 @@
+Start Time,EventType,Drug Inside,Volume In Syringe,Is Filled?,Is Tagged?,Is Administered?,Is Trashed?,End Time,Notes
+18:04:23:3402,New Task,Vecuronium,, ---,---,---,---,---,Prepare and administer 3 mL of Vecuronium
+18:04:23:3407,Select Drug,Vecuronium,-,-,-,-,-,18:05:00:3057,
+18:05:00:3057,Move Syringe,no,0.00,0,0,0,0,18:05:13:7839,
+18:05:13:7839,Fill Syringe,Vecuronium,4,1,0,0,0,18:05:28:9587,
+18:05:28:9587,Apply Lable,Vecuronium,4,1,1,0,0,18:05:39:2128,
+18:05:39:2128,AdministerSyringe,Vecuronium,4,1,1,1,0,18:05:48:1251,
+18:05:48:1251,Trash Syringe,Vecuronium,4,1,1,1,1,18:06:01:3741,
+18:06:06:0132,New Task,Propofol,, ---,---,---,---,---,Prepare and administer 29 mL of Propofol
+18:06:06:0132,Select Drug,Propofol,-,-,-,-,-,18:07:25:2371,
+18:07:25:2371,Move Syringe,no,0.00,0,0,0,0,18:07:33:6728,
+18:07:33:6728,Fill Syringe,Propofol,29,1,0,0,0,18:07:40:8140,
+18:07:40:8140,Apply Lable,Propofol,29,1,1,0,0,18:07:43:2652,
+18:07:43:2652,AdministerSyringe,Propofol,29,1,1,1,0,18:07:45:7276,
+18:07:45:7276,Trash Syringe,Propofol,29,1,1,1,1,18:07:49:5167,
+18:07:53:1924,New Task,Succinylcholine,, ---,---,---,---,---,Prepare and administer 5 mL of Succinylcholine
+
